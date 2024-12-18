@@ -32,4 +32,4 @@ do_install:append() {
 }
  
 FILES:${PN} = "${sysconfdir}/init.d/${INITSCRIPT_NAME} ${bindir}/go-pod-provisioning"
-RDEPENDS:${PN} = "cvm-reverse-proxy podman catatonit modutils-initscripts kernel-modules"
+RDEPENDS:${PN} = "cvm-reverse-proxy-server podman catatonit modutils-initscripts kernel-modules"
